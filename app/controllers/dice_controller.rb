@@ -179,4 +179,12 @@ class DiceController < ApplicationController
 
     render({:template => "dice_templates/three_twenty.html.erb"})
   end
+
+
+  def infinity_and_beyond   
+    render({:template => "dice_templates/infinity.html.erb"})
+  end
+
+
+
 end
